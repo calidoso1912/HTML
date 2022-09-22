@@ -1,0 +1,29 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>¿Cual es el precio de la hamburgesa?</title>
+</head>
+<body>
+  <h1> Tenemos la mejor hamburgesa del planeta tierra Y SUS ALREDEDORES </h1>
+  <p> Contamos con tres opciones para ti. </p>
+  <p> 1. La primera es una hamburgesa sencilla, pan, carne y verduras </p>
+  <p> 2. La segunda es igual a la anterior pero con adición de <strong>QUESO</strong> </p>
+  <p> 3. Finalmente, la tercera opción es igual a la segunda, pero con <strong>TOCINETA.</strong> </p>
+  <script>
+  var usuario = prompt("¿Cuántos COP tienes?");
+  var moneda_inter = prompt("¿A qué monenda la quieres convertir?")
+  var moneda_SCV = parseInt(usuario);
+  var dolar = 4300;
+  var euro = 4000;
+  var libra = 5200;
+  var moneda_final;
+  var nombre;
+  if (moneda_inter == 1)
+  {
+    moneda_final = moneda_SCV * dolar
+    nombre = "dolar"
+  }
+  document.write("El valor de tu moneda en + nombre + "es de" es de + moneda_final + ");
+    </script>
+  </body>
+</html>
